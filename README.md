@@ -19,6 +19,7 @@ Usage
     # Write your super awesome amazing app!
     heroku login
     heroku create
+    heroku config:add BUILDPACK_URL=git://github.com/heroku/heroku-buildpack-python.git
     git push heroku master
     heroku config:set S3_KEY="t8yamo017rg6*ukr+k@&l+&$3mx%4^c&^16l_i"
     # Don't use that key though you silly-billy!
