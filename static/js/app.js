@@ -1,0 +1,1 @@
+(function(){console.log("It works!")}).call(this);
