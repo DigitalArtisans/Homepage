@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <title>Digital Artisians</title>
+    <meta name="description" content="A community group for digital artisians." />
+    <meta name="keywords" content="design, development, web development, community, chat, designer, digital" />
     <meta name="author" content="me@aaronbassett.com" />
     <meta name="robots" content="index, follow" />
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" />
@@ -15,7 +16,6 @@
 
     <!-- Google -->
     <link rel="author" href="https://plus.google.com/+AaronBassettTM" />
-    <link rel="canonical" href="" />
 
     <!-- Facebook / OpenGraph -->
     <meta content="" property="og:site_name"/>
@@ -31,8 +31,6 @@
     <meta content=""/>
     <meta content="{{ url_for('static', filename='images/twitter.png') }}" name="twitter:image"/>
 
-    <!-- Bootstrap core CSS -->
-    <link href='{{ url_for('static', filename='components/bootstrap/dist/css/bootstrap.min.css') }}' rel='stylesheet' type='text/css'>
     <!-- Custom styles for this template -->
     <link href='{{ url_for('static', filename='css/app.css') }}' rel='stylesheet' type='text/css'>
 
@@ -47,34 +45,13 @@
 
   <body>
 
-    <div class="site-wrapper">
-
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-          <div class="inner cover">
-            <h1 class="cover-heading">Flask App Skeleton.</h1>
-            <p class="lead">A very bar bones Flask application ready for deployment to Heroku. Comes with Flask-Classy as well as Twitter bootstrap, jQuery, Modernizr and Mocha (via Bower).</p>
-            <p class="lead">
-              <a href="https://www.heroku.com/deploy/?template=https://github.com/aaronbassett/Flask-skeleton" class="btn btn-lg btn-default">Deploy to Heroku</a>
-            </p>
-          </div>
-
-          <div class="mastfoot">
-            <div class="inner">
-              <p>by <a href="https://twitter.com/aaronbassett">@aaronbassett</a>.</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
+    <div id="wrapper">
+      <a href="/" title="" id="logo">
+        <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Barba tenus sapientes" />
+      </a>
     </div>
 
-
     <script src="{{ url_for('static', filename='components/jquery/dist/jquery.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
     <script src="{{ url_for('static', filename='js/app.js') }}"></script>
   </body>
 </html>
