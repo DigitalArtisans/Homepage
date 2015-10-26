@@ -1,5 +1,5 @@
 
-# [Digital Artisans](artisans.digital)
+# [Digital Artisans](http://artisans.digital)
 
 ### WHAT IS THIS?
 Digital Artisans is a place where pixel artists, code poets, copywriting wordsmiths and masters of the digital arts can escape the confines of solitude and aid in each others enlightenment.
